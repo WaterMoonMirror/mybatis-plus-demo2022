@@ -49,4 +49,11 @@
         where
         name = #{name,jdbcType=VARCHAR}
     </select>
+    <select id="selectByAgePage" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where
+        age = #{age,jdbcType=NUMERIC}
+    </select>
 </mapper>
