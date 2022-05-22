@@ -5,7 +5,7 @@ import com.tkn.mybatisplus.user.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
-* @author 李柱
+* @author tkn
 * @description 针对表【user】的数据库操作Mapper
 * @createDate 2022-05-22 14:40:14
 * @Entity com.tkn.mybatisplus.user.User
